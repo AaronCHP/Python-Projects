@@ -41,13 +41,15 @@ while rolar == 1:
         valor = random.randint(1,20)
         print(valor)
         dado = str(input("Escolha de dado: "))
+    # condição de saída
     elif dado == "0" or dado == "sair":
         print("Deseja sair do programa?")
         resposta = str(input("Resposta(s/n): "))
         if resposta == "s" or "sim":
-            break
+            rolar = 0
         else:
             dado = str(input("Escolha de dado: "))
+#c condição de erro no input
     else:
         print("Dado escolhido de forma incorreta")
         dado = str(input("Escolha de dado: "))
