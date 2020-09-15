@@ -9,7 +9,7 @@ print("C - para D8")
 print("D - para D10")
 print("E - para D12")
 print("F - para D20")
-print("Digite 'sair' ou '0' para finalizaro programa\n")
+print("Digite 'sair' ou '0' para finalizar o programa\n")
 
 dado = str(input("Escolha de dado: "))
 valor = 0
